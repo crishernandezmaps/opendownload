@@ -1,0 +1,29 @@
+{
+  "name": "london",
+  "version": "1.0.0",
+  "description": "london data collector",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "data",
+    "collector",
+    "london"
+  ],
+  "author": "cris hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "node-status": "^1.0.0",
+    "request": "^2.75.0",
+    "wget": "0.0.1",
+    "wget-improved": "^1.3.0"
+  }
+}
